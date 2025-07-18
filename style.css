@@ -1,0 +1,56 @@
+body {
+        background-color: #222;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 470px;
+        background: linear-gradient(90deg,#005dfe, #8a5482);
+        color: #fff;
+        margin: 100px auto 0;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+
+    .card input {
+        border: 0;
+        outline: 0;
+        background-color: #ebfffc;
+        color: #555;
+        padding: 5px 10px;
+        height: 40px;
+        border-radius: 15px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+    }
+
+    .card button {
+        border: 0;
+        outline: 0;
+        background: #01c6fc;
+        color: #ffffff;
+        border-radius: 10px;
+        height: 45px;
+        width: auto;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .card pre {
+        font-size: 16px;
+        text-align: left;
+        padding-left: 50px;
+        margin-top: 20px;
+    }
+
+    .fade {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
